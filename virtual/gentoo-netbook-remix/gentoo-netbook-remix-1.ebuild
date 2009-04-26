@@ -93,7 +93,7 @@ RDEPEND="app-admin/gnome-system-tools
 	x11-themes/gnome-icon-theme
 	x11-themes/gnome-themes
 	x11-themes/gtk-engines
+	x11-themes/human-netbook-theme
 	x11-themes/tangerine-icon-theme
 	x11-wm/maximus
-	x11-wm/metacity
-	x1l-themes/human-netbook-theme"
+	x11-wm/metacity"
