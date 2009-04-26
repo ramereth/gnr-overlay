@@ -1,0 +1,25 @@
+# ChangeLog for media-libs/clutter-cairo
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  23 Jan 2009; Mike Auty <ikelos@gentoo.org> clutter-cairo-0.6.2.ebuild,
+  clutter-cairo-0.8.2.ebuild:
+  Fix up the deps to avoid portage pulling in two different conflicting
+  versions.
+
+*clutter-cairo-0.8.2 (20 Aug 2008)
+*clutter-cairo-0.6.2 (20 Aug 2008)
+
+  20 Aug 2008; Mike Auty <ikelos@gentoo.org> +clutter-cairo-0.6.2.ebuild,
+  +clutter-cairo-0.8.2.ebuild:
+  Version bump clutter-cairo to 0.6 and 0.8.
+
+  25 Nov 2007; Jorge Manuel B. S. Vicetto <jmbsvicetto@gentoo.org>
+  +metadata.xml:
+  Added metadata.xml.
+
+  13 Nov 2007; Jorge Manuel B. S. Vicetto <jmbsvicetto@gentoo.org>
+  +clutter-cairo-0.4.0.ebuild:
+  Initial import of clutter. Fixed bug #21.
+  Thanks to Guillaume Seguin (iXce) for providing the ebuilds.
+

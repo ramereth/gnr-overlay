@@ -1,0 +1,25 @@
+# ChangeLog for media-libs/clutter-gtk
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  23 Jan 2009; Mike Auty <ikelos@gentoo.org> clutter-gtk-0.6.1.ebuild,
+  clutter-gtk-0.8.1.ebuild:
+  Fix up the deps to avoid portage pulling in two different conflicting
+  versions.
+
+*clutter-gtk-0.8.1 (20 Aug 2008)
+*clutter-gtk-0.6.1 (20 Aug 2008)
+
+  20 Aug 2008; Mike Auty <ikelos@gentoo.org> +clutter-gtk-0.6.1.ebuild,
+  +clutter-gtk-0.8.1.ebuild:
+  Version bump clutter-gtk to 0.6 and 0.8.
+
+  25 Nov 2007; Jorge Manuel B. S. Vicetto <jmbsvicetto@gentoo.org>
+  +metadata.xml:
+  Added metadata.xml.
+
+  13 Nov 2007; Jorge Manuel B. S. Vicetto <jmbsvicetto@gentoo.org>
+  +clutter-gtk-0.4.0.ebuild:
+  Initial import of clutter. Fixed bug #21.
+  Thanks to Guillaume Seguin (iXce) for providing the ebuilds.
+

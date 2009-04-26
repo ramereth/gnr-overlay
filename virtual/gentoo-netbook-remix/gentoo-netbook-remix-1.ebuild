@@ -1,0 +1,100 @@
+# Copyright 1999-2009 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+DESCRIPTION="Virtual for Gentoo Netbook Remix"
+HOMEPAGE="http://www.gentoo.org"
+SRC_URI=""
+
+LICENSE="GPL-2"
+SLOT="0"
+KEYWORDS="amd64 x86"
+IUSE=""
+
+DEPEND=""
+RDEPEND="sys-power/acpid
+	x11-misc/alacarte
+	media-sound/alsa-tools
+	media-sound/alsa-utils
+	sys-process/vixie-cron
+	sys-apps/apmd
+	media-video/cheese
+	sys-auth/consolekit
+	net-print/cups
+	net-print/gutenprint
+	media-gfx/dcraw
+	dev-util/desktop-file-utils
+	gnome-extra/desktop-switcher
+	media-gfx/eog
+	app-text/evince
+	gnome-extra/fast-user-switch-applet
+	app-text/fbreader
+	app-arch/file-roller
+	net-print/foomatic-db
+	net-print/foomatic-db-engine
+	net-print/foomatic-db-ppds
+	net-print/foomatic-filters
+	net-print/foomatic-filters-ppds
+	net-print/foomatic-gui
+	gnome-extra/gcalctool
+	gnome-extra/gconf-editor
+	gnome-base/gdm
+	app-editors/gedit
+	virtual/ghostscript
+	gnome-base/gnome-applets
+	gnome-base/gnome-control-center
+	x11-themes/gnome-icon-theme
+	gnome-extra/gnome-media
+	gnome-base/gnome-menus
+	net-analyzer/gnome-netstatus
+	net-analyzer/gnome-nettool
+	gnome-base/gnome-panel
+	gnome-extra/gnome-power-manager
+	gnome-base/gnome-session
+	gnome-extra/gnome-system-monitor
+	app-admin/gnome-system-tools
+	x11-terms/gnome-terminal
+	x11-themes/gnome-themes
+	gnome-extra/gnome-utils
+	gnome-extra/go-home-applet
+	media-libs/gstreamer
+	x11-themes/gtk-engines
+	gnome-extra/gucharmap
+	sys-apps/hal
+	x1l-themes/human-netbook-theme
+	media-libs/mesa
+	dev-perl/gnome2-perl
+	gnome-base/gnome-vfs
+	dev-perl/gnome2-vfs-perl
+	x11-wm/maximus
+	x11-wm/metacity
+	gnome-base/nautilus
+	gnome-extra/nautilus-sendto
+	gnome-extra/netbook-launcher
+	media-sound/pulseaudio
+	sys-apps/readahead-list
+	x11-misc/rss-glx
+	app-misc/screen
+	app-crypt/seahorse
+	net-fs/samba
+	net-misc/ssh-askpass-fullscreen
+	x11-drivers/synaptics
+	app-admin/system-config-printer
+	x11-themes/tangerine-icon-theme
+	media-fonts/ttf-bitstream-vera
+	media-fonts/dejavu
+	media-fonts/freefont-ttf
+	app-arch/unzip
+	gnome-extra/window-picker-applet
+	net-wireless/wireless-tools
+	net-wireless/wpa_supplicant
+	x11-misc/xdg-user-dirs
+	x11-misc/xdg-user-dirs-gtk
+	x11-misc/xkbdata
+	x11-base/xorg-server
+	x11-misc/xscreensaver
+	x11-terms/xterm
+	gnome-extra/yelp
+	gnome-extra/zenity
+	app-arch/zip"
+
