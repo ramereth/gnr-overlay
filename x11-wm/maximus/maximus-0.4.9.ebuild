@@ -10,7 +10,7 @@ SRC_URI="http://launchpad.net/maximus/trunk/1.2.0beta/+download/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=">=dev-libs/glib-2.15.5

@@ -8,93 +8,92 @@ SRC_URI=""
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="sys-power/acpid
-	x11-misc/alacarte
+RDEPEND="app-admin/gnome-system-tools
+	app-admin/system-config-printer
+	app-arch/file-roller
+	app-arch/unzip
+	app-arch/zip
+	app-crypt/seahorse
+	app-editors/gedit
+	app-misc/screen
+	app-text/evince
+	app-text/fbreader
+	dev-perl/gnome2-perl
+	dev-perl/gnome2-vfs-perl
+	dev-util/desktop-file-utils
+	gnome-base/gdm
+	gnome-base/gnome-applets
+	gnome-base/gnome-control-center
+	gnome-base/gnome-menus
+	gnome-base/gnome-panel
+	gnome-base/gnome-session
+	gnome-base/gnome-vfs
+	gnome-base/nautilus
+	gnome-extra/desktop-switcher
+	gnome-extra/fast-user-switch-applet
+	gnome-extra/gcalctool
+	gnome-extra/gconf-editor
+	gnome-extra/gnome-media
+	gnome-extra/gnome-power-manager
+	gnome-extra/gnome-system-monitor
+	gnome-extra/gnome-utils
+	gnome-extra/go-home-applet
+	gnome-extra/gucharmap
+	gnome-extra/nautilus-sendto
+	gnome-extra/netbook-launcher
+	gnome-extra/window-picker-applet
+	gnome-extra/yelp
+	gnome-extra/zenity
+	media-fonts/dejavu
+	media-fonts/freefont-ttf
+	media-fonts/ttf-bitstream-vera
+	media-gfx/dcraw
+	media-gfx/eog
+	media-libs/gstreamer
+	media-libs/mesa
 	media-sound/alsa-tools
 	media-sound/alsa-utils
-	sys-process/vixie-cron
-	sys-apps/apmd
+	media-sound/pulseaudio
 	media-video/cheese
-	sys-auth/consolekit
+	net-analyzer/gnome-netstatus
+	net-analyzer/gnome-nettool
+	net-fs/samba
+	net-misc/ssh-askpass-fullscreen
 	net-print/cups
-	net-print/gutenprint
-	media-gfx/dcraw
-	dev-util/desktop-file-utils
-	gnome-extra/desktop-switcher
-	media-gfx/eog
-	app-text/evince
-	gnome-extra/fast-user-switch-applet
-	app-text/fbreader
-	app-arch/file-roller
 	net-print/foomatic-db
 	net-print/foomatic-db-engine
 	net-print/foomatic-db-ppds
 	net-print/foomatic-filters
 	net-print/foomatic-filters-ppds
 	net-print/foomatic-gui
-	gnome-extra/gcalctool
-	gnome-extra/gconf-editor
-	gnome-base/gdm
-	app-editors/gedit
-	virtual/ghostscript
-	gnome-base/gnome-applets
-	gnome-base/gnome-control-center
-	x11-themes/gnome-icon-theme
-	gnome-extra/gnome-media
-	gnome-base/gnome-menus
-	net-analyzer/gnome-netstatus
-	net-analyzer/gnome-nettool
-	gnome-base/gnome-panel
-	gnome-extra/gnome-power-manager
-	gnome-base/gnome-session
-	gnome-extra/gnome-system-monitor
-	app-admin/gnome-system-tools
-	x11-terms/gnome-terminal
-	x11-themes/gnome-themes
-	gnome-extra/gnome-utils
-	gnome-extra/go-home-applet
-	media-libs/gstreamer
-	x11-themes/gtk-engines
-	gnome-extra/gucharmap
-	sys-apps/hal
-	x1l-themes/human-netbook-theme
-	media-libs/mesa
-	dev-perl/gnome2-perl
-	gnome-base/gnome-vfs
-	dev-perl/gnome2-vfs-perl
-	x11-wm/maximus
-	x11-wm/metacity
-	gnome-base/nautilus
-	gnome-extra/nautilus-sendto
-	gnome-extra/netbook-launcher
-	media-sound/pulseaudio
-	sys-apps/readahead-list
-	x11-misc/rss-glx
-	app-misc/screen
-	app-crypt/seahorse
-	net-fs/samba
-	net-misc/ssh-askpass-fullscreen
-	x11-drivers/synaptics
-	app-admin/system-config-printer
-	x11-themes/tangerine-icon-theme
-	media-fonts/ttf-bitstream-vera
-	media-fonts/dejavu
-	media-fonts/freefont-ttf
-	app-arch/unzip
-	gnome-extra/window-picker-applet
+	net-print/gutenprint
 	net-wireless/wireless-tools
 	net-wireless/wpa_supplicant
+	sys-apps/apmd
+	sys-apps/hal
+	sys-apps/readahead-list
+	sys-auth/consolekit
+	sys-power/acpid
+	sys-process/vixie-cron
+	virtual/ghostscript
+	x11-base/xorg-server
+	x11-drivers/synaptics
+	x11-misc/alacarte
+	x11-misc/rss-glx
 	x11-misc/xdg-user-dirs
 	x11-misc/xdg-user-dirs-gtk
 	x11-misc/xkbdata
-	x11-base/xorg-server
 	x11-misc/xscreensaver
+	x11-terms/gnome-terminal
 	x11-terms/xterm
-	gnome-extra/yelp
-	gnome-extra/zenity
-	app-arch/zip"
-
+	x11-themes/gnome-icon-theme
+	x11-themes/gnome-themes
+	x11-themes/gtk-engines
+	x11-themes/tangerine-icon-theme
+	x11-wm/maximus
+	x11-wm/metacity
+	x1l-themes/human-netbook-theme"

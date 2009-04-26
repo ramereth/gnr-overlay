@@ -10,7 +10,7 @@ SRC_URI="http://launchpad.net/human-netbook-theme/trunk/1.2.0beta/+download/${P}
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/python-distutils-extra"

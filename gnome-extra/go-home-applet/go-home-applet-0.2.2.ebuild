@@ -10,7 +10,7 @@ SRC_URI="http://launchpad.net/go-home-applet/trunk/1.2.0beta/+download/${P}.tar.
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="gnome-base/gconf
