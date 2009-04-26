@@ -81,12 +81,10 @@ RDEPEND="app-admin/gnome-system-tools
 	sys-process/vixie-cron
 	virtual/ghostscript
 	x11-base/xorg-server
-	x11-drivers/synaptics
 	x11-misc/alacarte
 	x11-misc/rss-glx
 	x11-misc/xdg-user-dirs
 	x11-misc/xdg-user-dirs-gtk
-	x11-misc/xkbdata
 	x11-misc/xscreensaver
 	x11-terms/gnome-terminal
 	x11-terms/xterm
