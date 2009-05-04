@@ -80,6 +80,7 @@ RDEPEND="app-admin/gnome-system-tools
 	sys-power/acpid
 	sys-process/vixie-cron
 	virtual/ghostscript
+	x11-apps/notify-osd
 	x11-base/xorg-server
 	x11-misc/alacarte
 	x11-misc/rss-glx

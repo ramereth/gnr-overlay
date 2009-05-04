@@ -6,7 +6,7 @@ inherit gnome2
 
 DESCRIPTION="Daemon that displays passive pop-up notifications"
 HOMEPAGE="https://launchpad.net/notify-osd"
-SRC_URI="http://launchpad.net/notify-osd/trunk/0.9.11/+download/${P}.tar.gz"
+SRC_URI="http://launchpad.net/notify-osd/trunk/${PV}/+download/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
