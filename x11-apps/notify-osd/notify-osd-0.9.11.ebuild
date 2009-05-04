@@ -20,7 +20,8 @@ DEPEND=">=dev-libs/glib-2.4
 	x11-libs/libwnck
 	x11-libs/libnotify
 	gnome-base/gconf
-	dev-util/intltool"
+	dev-util/intltool
+	!x11-misc/notification-daemon"
 RDEPEND="${DEPEND}"
 
 DOCS="AUTHORS COPYING ChangeLog INSTALL NEWS README TODO"
