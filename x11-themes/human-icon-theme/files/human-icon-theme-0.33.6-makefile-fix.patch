@@ -1,0 +1,16 @@
+diff -ur human-icon-theme-0.33.6ubuntu2/Makefile human-icon-theme-0.33.6ubuntu2.new/Makefile
+--- human-icon-theme-0.33.6ubuntu2/Makefile	2009-04-14 03:54:18.000000000 -0700
++++ human-icon-theme-0.33.6ubuntu2.new/Makefile	2009-05-04 12:00:05.000000000 -0700
+@@ -18,9 +18,9 @@
+ 	    install -D -m 644 '{}' $$DESTDIR/usr/share/icons/Human/'{}' \;
+ 
+ 	# run icon-naming-utils
+-	for d in $$DESTDIR/usr/share/icons/Human/*; do \
+-	    (cd $$d; for c in *; do /usr/lib/icon-naming-utils/icon-name-mapping -c $$c; done); \
+-	done
++	#for d in $$DESTDIR/usr/share/icons/Human/*; do \
++	#    (cd $$d; for c in *; do /usr/lib/icon-naming-utils/icon-name-mapping -c $$c; done); \
++	#done
+ 
+ 	# install mo files
+ 	for f in po/*.po; do \

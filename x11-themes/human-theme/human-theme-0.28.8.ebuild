@@ -4,11 +4,13 @@
 
 inherit gnome2 distutils
 
-DESCRIPTION="Human Netbook theme"
-HOMEPAGE="http://launchpad.net/human-netbook-theme"
-SRC_URI="http://launchpad.net/human-netbook-theme/trunk/1.2.0beta/+download/${P}.tar.gz"
+MY_P="${PN}_${PV}"
 
-LICENSE="GPL-3"
+DESCRIPTION="Human theme"
+HOMEPAGE="https://launchpad.net/ubuntu/+source/human-theme"
+SRC_URI="http://launchpad.net/ubuntu/jaunty/+source/human-theme/${PV}/+files/${MY_P}.tar.gz"
+
+LICENSE="as-is"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
@@ -16,7 +18,6 @@ IUSE=""
 DEPEND="dev-python/python-distutils-extra"
 RDEPEND="x11-themes/vanilla-dmz-xcursors
 	x11-themes/gtk-engines-murrine
-	x11-themes/human-theme
 	x11-themes/human-icon-theme"
 
 DOCS="AUTHORS NEWS README INSTALL ChangeLog"
