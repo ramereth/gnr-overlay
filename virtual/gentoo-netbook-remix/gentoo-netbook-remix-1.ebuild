@@ -73,7 +73,6 @@ RDEPEND="app-admin/gnome-system-tools
 	net-print/gutenprint
 	net-wireless/wireless-tools
 	net-wireless/wpa_supplicant
-	sys-apps/apmd
 	sys-apps/hal
 	sys-apps/readahead-list
 	sys-auth/consolekit
