@@ -11,7 +11,7 @@ SRC_URI="http://launchpad.net/netbook-remix-launcher/trunk/1.2.0beta/+download/$
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="vanilla"
 
 DEPEND=">=dev-libs/glib-2.15.5
 	>=x11-libs/pango-1.18.0
@@ -35,8 +35,10 @@ DOCS="AUTHORS ChangeLog INSTALL NEWS README TODO"
 src_unpack() {
 	unpack ${A}
 	cd ${S}
-	epatch "${FILESDIR}"/${P}-gentoo-branding.patch
-	cp "${FILESDIR}"/gentoo.png data/gentoo.png
+	if ! use vanilla ; then
+		epatch "${FILESDIR}"/${P}-gentoo-branding.patch
+		cp "${FILESDIR}"/gentoo.png data/gentoo.png
+	fi
 }
 
 pkg_setup() {
