@@ -1,0 +1,36 @@
+diff -ur netbook-launcher-1.6.21/data/Makefile.am netbook-launcher-1.6.21.new/data/Makefile.am
+--- netbook-launcher-1.6.21/data/Makefile.am	2009-04-08 03:27:09.000000000 -0700
++++ netbook-launcher-1.6.21.new/data/Makefile.am	2009-05-05 06:54:27.000000000 -0700
+@@ -7,7 +7,7 @@
+ 	logout-dialog.glade \
+ 	logout-dialog.xml \
+ 	new.svg \
+-	ubuntu.png \
++	gentoo.png \
+ 	scrollbar.svg \
+ 	shortcutbg.svg \
+ 	shortcuthilight.svg \
+diff -ur netbook-launcher-1.6.21/data/Makefile.in netbook-launcher-1.6.21.new/data/Makefile.in
+--- netbook-launcher-1.6.21/data/Makefile.in	2009-04-14 10:14:24.000000000 -0700
++++ netbook-launcher-1.6.21.new/data/Makefile.in	2009-05-05 11:12:48.000000000 -0700
+@@ -211,7 +211,7 @@
+ 	logout-dialog.glade \
+ 	logout-dialog.xml \
+ 	new.svg \
+-	ubuntu.png \
++	gentoo.png \
+ 	scrollbar.svg \
+ 	shortcutbg.svg \
+ 	shortcuthilight.svg \
+diff -ur netbook-launcher-1.6.21/src/launcher-app.c netbook-launcher-1.6.21.new/src/launcher-app.c
+--- netbook-launcher-1.6.21/src/launcher-app.c	2009-04-08 03:27:09.000000000 -0700
++++ netbook-launcher-1.6.21.new/src/launcher-app.c	2009-05-05 06:54:43.000000000 -0700
+@@ -602,7 +602,7 @@
+   clutter_actor_show (priv->window);
+ 
+   /* Ubuntu logo */
+-  priv->ubuntu = launcher_util_texture_new_from_file (PKGDATADIR"/ubuntu.png");
++  priv->ubuntu = launcher_util_texture_new_from_file (PKGDATADIR"/gentoo.png");
+   clutter_container_add_actor (CLUTTER_CONTAINER (stage), priv->ubuntu);
+   clutter_actor_set_anchor_point_from_gravity (priv->ubuntu, 
+                                                CLUTTER_GRAVITY_NORTH);
