@@ -1,4 +1,4 @@
-# Copyright 1999-2008 Gentoo Foundation
+# Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -32,7 +32,7 @@ DOCS="AUTHORS ChangeLog NEWS README TODO"
 
 pkg_setup() {
 	G2CONF="${G2CONF} \
-		$(use_enable doc gtk-doc)" 
+		$(use_enable doc gtk-doc)"
 
 	if use !opengl && use !sdl; then
 		eerror "Select one render between: opengl or sdl"
