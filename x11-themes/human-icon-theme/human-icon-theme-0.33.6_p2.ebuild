@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI=2
+
 inherit gnome2 eutils
 
 MY_PV="${PV/_p/ubuntu}"
@@ -22,10 +24,12 @@ RDEPEND=""
 
 DOCS="AUTHORS NEWS README INSTALL ChangeLog"
 
-src_unpack() {
-	unpack ${A}
-	cd ${S}
-	epatch "${FILESDIR}"/${PN}-0.33.6-makefile-fix.patch
+src_prepare() {
+	epatch "${FILESDIR}"/"${PN}"-0.33.6-makefile-fix.patch
+}
+
+src_configure() {
+	einfo "no configure"
 }
 
 src_compile() {
@@ -33,6 +37,6 @@ src_compile() {
 }
 
 src_install() {
-	cd ${S}
+	cd "${S}"
 	DESTDIR="${D}" emake install
 }

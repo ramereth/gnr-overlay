@@ -1,0 +1,8 @@
+# ChangeLog for x11-themes/human-icon-theme
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  26 Aug 2009; Lance Albertson <ramereth@gentoo.org>
+  human-icon-theme-0.33.6_p2.ebuild, +metadata.xml:
+  QA Fixes
+
