@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd></herd>
+	<maintainer>
+		<email>ramereth@gentoo.org</email>
+		<name>Lance Albertson</name>
+	</maintainer>
+	<longdescription lang="en">
+	Canonical's on-screen-display notification agent, implementing the
+	freedesktop.org Desktop Notifications Specification with semi-transparent
+	click-through bubbles.
+
+	Notify OSD presents these notifications as ephemeral overlays, which can be
+	clicked through so they don't block your work. It queues notifications, to
+	prevent them from flooding your screen. And as well as handling standard
+	notification updates, Notify OSD introduces the idea of appending --
+	allowing notifications to grow over time, for example in the case of instant
+	messages from a particular person.
+	</longdescription>
+</pkgmetadata>
+

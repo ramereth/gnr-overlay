@@ -22,6 +22,13 @@ DEPEND=">=dev-libs/glib-2.4
 	gnome-base/gconf
 	dev-util/intltool
 	!x11-misc/notification-daemon"
-RDEPEND="${DEPEND}"
+RDEPEND=">=dev-libs/glib-2.4
+	>=x11-libs/gtk+-2.4
+	>=sys-apps/dbus-0.26
+	>=dev-libs/dbus-glib-0.60
+	x11-libs/libwnck
+	x11-libs/libnotify
+	gnome-base/gconf
+	!x11-misc/notification-daemon"
 
 DOCS="AUTHORS COPYING ChangeLog INSTALL NEWS README TODO"
