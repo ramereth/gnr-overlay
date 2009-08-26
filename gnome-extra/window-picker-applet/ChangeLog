@@ -1,0 +1,10 @@
+# ChangeLog for gnome-extra/window-picker-applet
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*window-picker-applet-0.5.2 (26 Aug 2009)
+
+  26 Aug 2009; Lance Albertson <ramereth@gentoo.org>
+  +window-picker-applet-0.5.2.ebuild, +metadata.xml:
+  QA Fixes, version bump to 0.5.2
+

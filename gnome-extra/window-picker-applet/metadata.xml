@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd></herd>
+	<maintainer>
+		<email>ramereth@gentoo.org</email>
+		<name>Lance Albertson</name>
+	</maintainer>
+	<longdescription lang="en">
+	A gnome-panel applet that displays open windows as icons on the panel, and
+	has integrated window title-bar functionality. Optimised for use on
+	netbook-size screens.
+	</longdescription>
+</pkgmetadata>
+
