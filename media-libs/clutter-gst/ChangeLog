@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Aug 2009; Lance Albertson <ramereth@gentoo.org>
+  -clutter-gst-0.4.0.ebuild, -clutter-gst-0.6.1.ebuild:
+  Ebuild cleanup
+
   23 Jan 2009; Mike Auty <ikelos@gentoo.org> clutter-gst-0.6.1.ebuild,
   clutter-gst-0.8.0.ebuild:
   Fix up the deps to avoid portage pulling in two different conflicting
