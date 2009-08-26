@@ -18,6 +18,9 @@ DEPEND=">=dev-libs/glib-2.15.5
 	gnome-base/gconf
 	dev-perl/XML-Parser
 	dev-util/intltool"
-RDEPEND="${DEPEND}"
+RDEPEND=">=dev-libs/glib-2.15.5
+	>=x11-libs/gtk+-2.10.0
+	gnome-base/gconf
+	dev-perl/XML-Parser"
 
 DOCS="AUTHORS README INSTALL TODO NEWS"

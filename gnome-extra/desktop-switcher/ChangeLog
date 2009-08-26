@@ -1,0 +1,12 @@
+# ChangeLog for gnome-extra/desktop-switcher
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*desktop-switcher-0.5.2 (26 Aug 2009)
+
+  26 Aug 2009; Lance Albertson <ramereth@gentoo.org>
+  desktop-switcher-0.4.5.ebuild, desktop-switcher-0.4.6.ebuild,
+  +desktop-switcher-0.5.2.ebuild, desktop-switcher-9999.ebuild,
+  +metadata.xml:
+  QA Fixes, version bump for 0.5.2
+

@@ -6,7 +6,7 @@ inherit gnome2
 
 DESCRIPTION="Switch between desktop modes for netbooks"
 HOMEPAGE="http://launchpad.net/desktop-switcher"
-SRC_URI="http://launchpad.net/desktop-switcher/trunk/1.2.0beta/+download/${P}.tar.gz"
+SRC_URI="http://launchpad.net/desktop-switcher/0.5/${PV}/+download/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
