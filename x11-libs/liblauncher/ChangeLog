@@ -1,0 +1,8 @@
+# ChangeLog for x11-libs/liblauncher
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  26 Aug 2009; Lance Albertson <ramereth@gentoo.org>
+  liblauncher-0.1.7.ebuild, +metadata.xml:
+  QA Fixes
+

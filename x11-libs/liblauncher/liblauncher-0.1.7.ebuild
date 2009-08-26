@@ -12,6 +12,7 @@ SRC_URI="http://launchpad.net/liblauncher/0.1/${PV}/+download/${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
+IUSE=""
 
 DEPEND=">=x11-libs/gtk+-2.10.0
 	gnome-base/gconf
