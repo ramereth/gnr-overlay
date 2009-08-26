@@ -1,0 +1,11 @@
+# ChangeLog for gnome-extra/netbook-launcher
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*netbook-launcher-2.1.4 (26 Aug 2009)
+
+  26 Aug 2009; Lance Albertson <ramereth@gentoo.org>
+  netbook-launcher-1.6.21-r1.ebuild, +netbook-launcher-2.1.4.ebuild,
+  +metadata.xml:
+  QA Fixes, version bump to 2.1.4
+
