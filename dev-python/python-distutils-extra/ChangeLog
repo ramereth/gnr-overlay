@@ -1,0 +1,9 @@
+# ChangeLog for dev-python/python-distutils-extra
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  26 Aug 2009; Lance Albertson <ramereth@gentoo.org>
+  python-distutils-extra-1.91.2.ebuild, python-distutils-extra-2.9.ebuild,
+  +metadata.xml:
+  QA Fixes
+

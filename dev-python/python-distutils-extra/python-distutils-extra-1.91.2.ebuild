@@ -14,9 +14,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 # intltool is really required during the runtime.
-RDEPEND=">=dev-util/intltool-0.35.5"
-DEPEND="${RDEPEND}
+DEPEND=">=dev-util/intltool-0.35.5
 	dev-python/setuptools"
+RDEPEND=""
 
 S="${WORKDIR}"/debian
 DOCS=doc/*

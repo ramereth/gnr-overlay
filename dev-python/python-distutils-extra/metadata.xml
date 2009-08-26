@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>python</herd>
+	<maintainer>
+		<email>ramereth@gentoo.org</email>
+		<name>Lance Albertson</name>
+	</maintainer>
+	<longdescription lang="en">
+	This package provides additional functions to Python's distutils and
+	setuptools. It allows you to easily integrate gettext, icons and GNOME
+	documentation into your build and installation process. 
+	</longdescription>
+</pkgmetadata>
+
