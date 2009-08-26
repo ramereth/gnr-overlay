@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd></herd>
+	<maintainer>
+		<email>ramereth@gentoo.org</email>
+		<name>Lance Albertson</name>
+	</maintainer>
+	<longdescription lang="en">
+	A gnome-panel applet that, when clicked upon, displays the desktop. Used in
+	a netbook-based desktop, the desktop-window will normally be the launcher.
+	Go Home Applet also works in conjunction with the netbook-remix-launcher
+	whereby dragging and dropping a file/url/application to the go-home-applet
+	will automatically add it to the launcher's favorites section.
+	</longdescription>
+</pkgmetadata>
+
