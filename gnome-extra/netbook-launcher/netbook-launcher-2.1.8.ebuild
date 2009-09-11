@@ -7,14 +7,14 @@ inherit gnome2 eutils
 
 DESCRIPTION="A clutter-based desktop launcher, typically used on netbooks"
 HOMEPAGE="http://launchpad.net/netbook-remix-launcher"
-SRC_URI="http://launchpad.net/netbook-remix-launcher/2.0/${PV}/+download/${P}.tar.gz"
+SRC_URI="http://launchpad.net/netbook-remix-launcher/2.0/ubuntu-9.10-ui-freeze/+download/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="vanilla"
+IUSE="nls doc"
 
-DEPEND=">=dev-libs/glib-2.21
+RDEPEND=">=dev-libs/glib-2.20
 	>=x11-libs/pango-1.18.0
 	>=gnome-base/librsvg-2.18.0
 	>=x11-libs/gtk+-2.10.0
@@ -29,18 +29,15 @@ DEPEND=">=dev-libs/glib-2.21
 	>=media-libs/clutter-gtk-0.10
 	>=media-libs/clutk-0.2
 	gnome-base/gnome-menus
-	x11-libs/libwnck
 	x11-libs/liblauncher
 	x11-libs/startup-notification"
-RDEPEND="${DEPEND}"
+DEPEND="${RDEPEND}
+	doc? ( >=dev-util/gtk-doc-1.8 )"
 
 DOCS="AUTHORS ChangeLog INSTALL NEWS README TODO"
 
-#src_unpack() {
-#	unpack ${A}
-#	cd ${S}
-#	if ! use vanilla ; then
-#		epatch "${FILESDIR}"/${P}-gentoo-branding.patch
-#		cp "${FILESDIR}"/gentoo.png data/gentoo.png
-#	fi
-#}
+src_configure(){
+	econf \
+		$(use_enable nls) \
+		$(use_enable doc gtk-doc)
+}
