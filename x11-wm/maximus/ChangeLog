@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*maximus-0.4.11 (11 Sep 2009)
+
+  11 Sep 2009; Lance Albertson <ramereth@gentoo.org> +maximus-0.4.11.ebuild:
+  Version Bump
+
   26 Aug 2009; Lance Albertson <ramereth@gentoo.org> +metadata.xml:
   QA Fixes
 
