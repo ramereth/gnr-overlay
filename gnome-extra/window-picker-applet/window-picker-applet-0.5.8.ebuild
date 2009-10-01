@@ -6,7 +6,7 @@ inherit gnome2
 
 DESCRIPTION="Window picker applet for GNOME"
 HOMEPAGE="http://launchpad.net/window-picker-applet"
-SRC_URI="http://launchpad.net/window-picker-applet/0.5/ubuntu-9.10-feature-freeze/+download/${P}.tar.gz"
+SRC_URI="http://launchpad.net/window-picker-applet/0.5/ubuntu-9.10-beta-freeze/+download/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
