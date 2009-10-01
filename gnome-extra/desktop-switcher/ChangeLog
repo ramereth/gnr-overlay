@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*desktop-switcher-0.5.8 (01 Oct 2009)
+
+  01 Oct 2009; Lance Albertson <ramereth@gentoo.org>
+  -desktop-switcher-0.5.2.ebuild, +desktop-switcher-0.5.8.ebuild:
+  Version bump & cleanup
+
 *desktop-switcher-0.5.6 (11 Sep 2009)
 
   11 Sep 2009; Lance Albertson <ramereth@gentoo.org>
