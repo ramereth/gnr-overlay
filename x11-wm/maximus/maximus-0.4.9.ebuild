@@ -6,7 +6,7 @@ inherit gnome2
 
 DESCRIPTION="A window manager designed to run one application at a time full screen"
 HOMEPAGE="http://launchpad.net/maximus"
-SRC_URI="http://launchpad.net/maximus/trunk/1.2.0beta/+download/${P}.tar.gz"
+SRC_URI="http://launchpad.net/maximus/0.4/ubuntu-9.10-beta-freeze/+download/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
