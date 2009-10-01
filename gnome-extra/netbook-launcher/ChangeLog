@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*netbook-launcher-2.1.10 (01 Oct 2009)
+
+  01 Oct 2009; Lance Albertson <ramereth@gentoo.org>
+  -netbook-launcher-2.1.1.ebuild, +netbook-launcher-2.1.10.ebuild:
+  Version bump & cleanup
+
 *netbook-launcher-2.1.8 (11 Sep 2009)
 
   11 Sep 2009; Lance Albertson <ramereth@gentoo.org>
