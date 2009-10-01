@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*liblauncher-0.1.8 (01 Oct 2009)
+
+  01 Oct 2009; Lance Albertson <ramereth@gentoo.org>
+  +liblauncher-0.1.8.ebuild:
+  Version bump
+
   26 Aug 2009; Lance Albertson <ramereth@gentoo.org>
   liblauncher-0.1.7.ebuild, +metadata.xml:
   QA Fixes
