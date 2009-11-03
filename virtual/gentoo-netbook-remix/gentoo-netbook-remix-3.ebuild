@@ -47,8 +47,7 @@ RDEPEND="app-admin/gnome-system-tools
 	x11-themes/human-netbook-theme
 	x11-themes/tangerine-icon-theme
 	x11-wm/maximus
-	extras? ( app-emulation/virt-manager
-		app-office/openoffice-bin
+	extras? ( app-office/openoffice-bin
 		app-portage/eix
 		app-portage/gentoolkit
 		app-portage/gentoolkit-dev
