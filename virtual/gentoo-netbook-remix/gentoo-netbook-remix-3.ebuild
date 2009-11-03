@@ -9,7 +9,7 @@ SRC_URI=""
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="developer extras"
 
 DEPEND=""
 RDEPEND="app-admin/gnome-system-tools
@@ -46,4 +46,35 @@ RDEPEND="app-admin/gnome-system-tools
 	x11-misc/xscreensaver
 	x11-themes/human-netbook-theme
 	x11-themes/tangerine-icon-theme
-	x11-wm/maximus"
+	x11-wm/maximus
+	extras? ( app-emulation/virt-manager
+		app-office/openoffice-bin
+		app-portage/eix
+		app-portage/gentoolkit
+		app-portage/gentoolkit-dev
+		app-portage/layman
+		app-portage/portage-utils
+		app-shells/bash-completion
+		app-shells/gentoo-bashcomp
+		app-text/acroread
+		dev-java/sun-jre-bin
+		dev-lang/ruby 
+		dev-util/strace 
+		mail-client/mozilla-thunderbird-bin
+		media-gfx/gimp
+		media-gfx/inkscape
+		media-sound/rhythmbox 
+		media-video/gnome-mplayer 
+		net-analyzer/wireshark 
+		net-im/pidgin
+		net-im/skype
+		net-misc/keychain
+		net-misc/ntp
+		net-misc/tightvnc
+		net-misc/whois
+		www-client/mozilla-firefox-bin
+		www-plugins/adobe-flash
+		x11-plugins/pidgin-facebookchat )
+	developer? ( dev-util/cvs
+		dev-util/git
+		dev-util/subversion )"
