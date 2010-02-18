@@ -31,6 +31,7 @@ RDEPEND="app-admin/gnome-system-tools
 	media-gfx/dcraw
 	media-sound/alsa-tools
 	media-video/cheese
+	net-libs/libsoup-gnome
 	net-misc/ssh-askpass-fullscreen
 	net-print/foomatic-db
 	net-print/foomatic-db-engine
